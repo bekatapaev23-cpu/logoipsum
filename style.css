@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.headerNav {
+  display: flex;
+  gap: 30px;
+}
+.get {
+  border: none;
+  padding: 20px 50px;
+  border-radius: 5px;
+  color: white;
+  background: #ff7143;
+}
+.card {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 30px;
+}
+
+.crow {
+  margin: 150px 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  letter-spacing: -2.5px;
+
+  p {
+    margin: 30px 0;
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+  }
+  button {
+    border: none;
+    padding: 20px 50px;
+    color: white;
+    background: #5454d4;
+    border-radius: 5px;
+  }
+}
+.logoipsum {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.subscription {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+    margin: 15px 0;
+  }
+  h3 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+  }
+  .Learn {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    background: white;
+    border: none;
+    color: #5454d4;
+  }
+}
+.In-depth {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 90px;
+  h3 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 57px;
+    letter-spacing: -1.56px;
+  }
+  p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.63px;
+  }
+  button {
+    border: none;
+    background: white;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: -0.53px;
+    color: #5454d4;
+  }
+}
+.card2 {
+  margin: 90px 0;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+
+  h3 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    text-align: center;
+  }
+  p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+    text-align: center;
+  }
+}
+.card3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  font-size: 30px;
+  .yearly {
+    border: none;
+    padding: 15px 35px;
+    width: 150;
+    height: 55;
+    background: #5454d4;
+    color: white;
+    border-radius: 4px;
+  }
+  .Monthly {
+    border: none;
+    padding: 15px 35px;
+    width: 150;
+    height: 55;
+    border-radius: 4px;
+    color: black;
+    background: #f7f7fb;
+  }
+}
+.card4 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  .Starter {
+    font-size: 25px;
+    margin: 90px 0;
+    width: 330px;
+    height: 441px;
+    background: #f8f8f8;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .premium {
+    font-size: 25px;
+    margin: 65px 0;
+    background: #ff7143;
+    width: 376px;
+    height: 473px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .Enterprise {
+    font-size: 25px;
+    margin: 90px 0;
+    background: #f8f8f8;
+    width: 330px;
+    height: 441px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .get1 {
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px;
+    color: #5454d4;
+    background: #ffffff;
+  }
+  .get2 {
+    width: 305px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px;
+    background: #9f3919;
+    color: white;
+  }
+  .get3 {
+    width: 285px;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px;
+    color: #5454d4;
+    background: #ffffff;
+  }
+}
